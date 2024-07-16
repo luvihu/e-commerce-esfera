@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color:var(--my-primary-background);
+}
+body.scrollable {
+  overflow-y: scroll;
+}
+
+:root {
+  --my-primary: #d89143;
+  --my-primary-lite1: #ffebd6;
+  --my-primary-lite2: #ffefd5;
+  --my-primary-lite3: #fff3d4d7;
+  --my-secondary: #ffd6d6;
+  --my-secondary-lite1: #ffddd2;
+  --my-secondary-lite2: #ffe6cf;
+
+  --my-icons: #d89143;
+  --my-category: #4b1b13;
+  --my-primary-background: #fff7f6;
+  /* --my-secondary-background: */
+}

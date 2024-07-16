@@ -1,0 +1,14 @@
+.accordionBorder {
+  border: none;
+  background-color: var(--my-background);
+}
+.accordionBorder  button {
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--my-category);
+  font-weight: 500;
+  }
+
+.hr {
+ margin-left: 18px;
+}

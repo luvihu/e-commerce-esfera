@@ -1,0 +1,40 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--my-primary-background);
+
+}
+
+.navLink {
+  cursor: pointer;
+  white-space: nowrap;
+  color: #000;
+}
+
+.nav-link {
+  cursor: pointer;
+  white-space: nowrap;
+  color: #000;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  font-weight: 500;
+  font-size: 16.5px;
+}
+.dropdown-menu li {
+  cursor: pointer;
+}
+
+.dropdown-item {
+  font-weight: 500;
+
+}
+.dropdown-item:hover {
+  background-color: var(--my-primary-lite3);
+  color:#0f0f0f;
+}
+
+
+

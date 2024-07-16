@@ -1,0 +1,40 @@
+.search-field {
+  width: 25vw;
+
+  }
+
+.search_input:focus {
+  border-color: var(--my-secondary);
+  box-shadow: 0 0 6px #ffe6cf;
+  }
+
+.search_input::-webkit-input-placeholder {
+  color: #9a9898;
+}
+
+.input-group-text {
+  border: none;
+  background: transparent;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+}
+
+.input-group-append {
+  position: relative;
+}
+.input-group-text i {
+  color: #9a9898;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+.input-group {
+  width: 100%;
+  margin-right: 10px;
+ }
+
+

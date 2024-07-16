@@ -1,0 +1,12 @@
+<ngb-carousel role="region" aria-labelledby ="Carrusel de imágenes" #carousel [interval]="3000" [pauseOnHover]="pauseOnHover" [pauseOnFocus]="pauseOnFocus"
+  (slide)="onSlide($event)">
+  <ng-template ngbSlide *ngFor="let image of images; let i = index">
+    <div class="carousel-inner">
+      <div class="picsum-img-wrapper">
+        <img loading="lazy" [src]="image" class="object-fit-cover image d-block w-100" [alt]="i"/>
+      </div>
+    </div>
+      <div class="transition-bar"></div>
+  </ng-template>
+  <div class="transition-bar"></div>
+</ngb-carousel>
